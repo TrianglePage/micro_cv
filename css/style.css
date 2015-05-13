@@ -216,7 +216,6 @@
 		margin: 0px auto;
 		width: 45%;
 		height: 100%;
-
 	}
 
 	.clear{
@@ -317,17 +316,17 @@
 	{display: inline-block; background: #565c61; width: 0.6em; height: 0.2em; text-align: center;}
 
 	.box_right .box_name{
-		position:relative;
+		position:absolute;
 		top:15%;
 		left:0%;
 		width: 80%;
-		height:auto;
+		height:50px;
 		margin: 25% 10% 25% 10%;
-		/*background-color: #ffffff; */
+		/*background-color: #ffffff;*/
 		/* for IE */
 		filter:alpha(opacity=60);
 		/* CSS3 standard */
-		opacity:0.6;
+		opacity:0.7;
         /*overflow: hidden;
         -webkit-transform: translate3d(-50%, -50%, 0px);
 		border:white solid thin;
@@ -335,16 +334,7 @@
 		outline-color:#ffffff;*/
 		z-index:1;
 	}
-	.box_right .box_canvas1
-	{
-		position:relative;
-		top:30%;
-		left:0%;
-		max-width: 80%;
-		margin: 0px auto;
-		width:80%;
 
-	}
 	.box_right .box_animation
 	{
 
@@ -359,7 +349,7 @@
 		}
 
 	.img_animation
-	{
+	{		opacity:0.5;
 		position:absolute;
 		top:0%;
 		left:0%;
